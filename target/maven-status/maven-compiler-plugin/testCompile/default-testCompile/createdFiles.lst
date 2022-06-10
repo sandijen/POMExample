@@ -1,0 +1,8 @@
+pages\GoogleSearchPage.class
+pages\AppleLoginPage.class
+pages\AppleMainPage.class
+testcases\GoogleSearchTest.class
+testcases\AppleTest.class
+library\SelectBrowser.class
+pages\GoogleImagesPage.class
+org\example\PomExample\AppTest.class
