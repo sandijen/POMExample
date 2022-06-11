@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.713">
+           time="4.943">
     <properties></properties>
 
 
 
             <testcase
                 name="search_product_on_google_test"
-                time="1.940"
+                time="1.741"
                 classname="testcases.GoogleSearchTest">
             </testcase>
             <testcase
                 name="get_pics_from_google_test"
-                time="2.773"
+                time="3.202"
                 classname="testcases.GoogleSearchTest">
             </testcase>
 </testsuite>

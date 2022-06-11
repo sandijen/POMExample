@@ -38,13 +38,13 @@ public class AppleTest {
     @BeforeSuite
     public void setUpReport() {
         //create the HtmlReporter in that path by the name of  MyOwnReport.html
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/AppleReport.html");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/GoogleReport.html");
         extent = new ExtentReports();
 
         extent.attachReporter(htmlReporter);
-        extent.setSystemInfo("Host Name", "ray.home-server.local");
+        extent.setSystemInfo("Host Name", "igor.home-server.local");
         extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("User Name", "Ray Gurung");
+        extent.setSystemInfo("User Name", "Igor Adulyan");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setDocumentTitle("AutomationTesting Google download pictures report");
         htmlReporter.config().setReportName("Google Search and Download Pictures Report");
@@ -73,7 +73,7 @@ public class AppleTest {
     public void login_into_with_invalid_pswd_test() throws IOException {
         appleLoginPage = new AppleLoginPage(driver);
         appleLoginPage.switchFrames();
-        appleLoginPage.inputLogin("rayking132@gmail.com");
+        appleLoginPage.inputLogin("sunitashakya@rocketmail.com");
         appleLoginPage.clickButtonForLoginAndSignIn();
         appleLoginPage.inputPassword("1234");
         appleLoginPage.clickButtonForLoginAndSignIn();

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test suite"
+<testsuite name="POMExample"
            tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="5.140">
+           time="6.084">
     <properties></properties>
 
 
 
             <testcase
-                name="login_into_with_invalid_pswd_test"
-                time="3.457"
+                name="click_on_bag_test"
+                time="1.953"
                 classname="testcases.AppleTest">
             </testcase>
             <testcase
-                name="click_on_bag_test"
-                time="1.683"
+                name="login_into_with_invalid_pswd_test"
+                time="4.131"
                 classname="testcases.AppleTest">
             </testcase>
 </testsuite>
