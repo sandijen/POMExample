@@ -1,4 +1,4 @@
-# Created at 2022-06-09T22:21:54.002
+# Created at 2022-06-11T10:26:11.538
 org.apache.maven.surefire.api.testset.TestSetFailedException: Suite file C:\Users\shakya\IdeaProjects\POMExample\testng.xml is not a valid file
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:98)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:122)
